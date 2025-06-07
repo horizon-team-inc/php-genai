@@ -1,7 +1,14 @@
 {
     "name": "horizonllc/php-genai",
     "description": "A clean PHP wrapper for Google's GenAI API",
-    "keywords": ["php", "genai", "google", "ai", "wrapper", "api"],
+    "keywords": [
+        "php",
+        "genai",
+        "google",
+        "ai",
+        "wrapper",
+        "api"
+    ],
     "license": "MIT",
     "authors": [
         {
@@ -30,7 +37,7 @@
     },
     "autoload": {
         "psr-4": {
-            "NunoMaduro\\SkeletonPhp\\": "src/"
+            "HorizonLLC\\PhpGenAI\\": "src/"
         }
     },
     "autoload-dev": {
