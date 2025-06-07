@@ -1,12 +1,16 @@
 {
-    "name": "nunomaduro/skeleton-php",
-    "description": "A skeleton repository for my packages",
-    "keywords": ["php", "skeleton", "package"],
+    "name": "horizonllc/php-genai",
+    "description": "A clean PHP wrapper for Google's GenAI API",
+    "keywords": ["php", "genai", "google", "ai", "wrapper", "api"],
     "license": "MIT",
     "authors": [
         {
             "name": "Nuno Maduro",
             "email": "enunomaduro@gmail.com"
+        },
+        {
+            "name": "Horizon LLC.",
+            "email": "horizon.team.toronto@gmail.com"
         }
     ],
     "require": {
