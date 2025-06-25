@@ -1,6 +1,6 @@
 <?php
 
-namespace Gemini;
+namespace HorizonLLC\PhpGenAI;
 
 class Client
 {
