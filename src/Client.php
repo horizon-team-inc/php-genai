@@ -1,6 +1,6 @@
 <?php
 
-namespace HorizonLLC\PhpGenAI;
+namespace PhpGenAI;
 
 class Client
 {
