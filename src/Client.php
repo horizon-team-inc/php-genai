@@ -2,7 +2,7 @@
 
 namespace PhpGenAI;
 
-use HorizonLLC\PhpGenAI\Http\HttpClient;
+use PhpGenAI\Http\HttpClient;
 
 class Client
 {

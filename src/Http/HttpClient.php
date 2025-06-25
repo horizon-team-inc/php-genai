@@ -1,6 +1,6 @@
 <?php
 
-namespace HorizonLLC\PhpGenAI\Http;
+namespace PhpGenAI\Http;
 
 use GuzzleHttp\Client as GuzzleClient;
 
