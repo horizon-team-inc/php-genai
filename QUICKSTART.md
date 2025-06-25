@@ -26,7 +26,7 @@ composer require horizonllc/php-genai
 
 require_once 'vendor/autoload.php';
 
-use HorizonLLC\PhpGenAI\Client;
+use PhpGenAI\Client;
 
 // Using Gemini Developer API
 $client = Client::create('your-api-key-here');
@@ -42,8 +42,8 @@ $client = Client::createForVertexAI(
 ### 2. Generate Embeddings
 
 ```php
-use HorizonLLC\PhpGenAI\Enums\Model;
-use HorizonLLC\PhpGenAI\Enums\TaskType;
+use PhpGenAI\Enums\Model;
+use PhpGenAI\Enums\TaskType;
 
 // Single text embedding
 $embedding = $client->embeddings()->embed(
@@ -104,8 +104,8 @@ Choose the appropriate task type for best results:
 ## Error Handling
 
 ```php
-use HorizonLLC\PhpGenAI\Exceptions\AuthenticationException;
-use HorizonLLC\PhpGenAI\Exceptions\ApiException;
+use PhpGenAI\Exceptions\AuthenticationException;
+use PhpGenAI\Exceptions\ApiException;
 
 try {
     $embedding = $client->embeddings()->embed('Test text');

@@ -52,9 +52,9 @@ cat examples/embeddings_example.php
 
 ### Basic Usage
 ```php
-use HorizonLLC\PhpGenAI\Client;
-use HorizonLLC\PhpGenAI\Enums\Model;
-use HorizonLLC\PhpGenAI\Enums\TaskType;
+use PhpGenAI\Client;
+use PhpGenAI\Enums\Model;
+use PhpGenAI\Enums\TaskType;
 
 // Initialize
 $client = Client::create('your-api-key');
