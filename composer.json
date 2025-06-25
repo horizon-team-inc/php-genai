@@ -44,7 +44,9 @@
     },
     "autoload": {
         "psr-4": {
-            "HorizonLLC\\PhpGenAI\\": "src/"
+            "HorizonLLC\\PhpGenAI\\": "src/",
+            "Gemini\\": "src/",
+            "NunoMaduro\\SkeletonPhp\\": "src/"
         }
     },
     "autoload-dev": {
