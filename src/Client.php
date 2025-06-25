@@ -2,9 +2,16 @@
 
 namespace PhpGenAI;
 
+use PhpGenAI\Http\HttpClient;
+
 class Client
 {
-    public function __construct(string $apiKey) {}
+    protected HttpClient $httpClient;
+
+    public function __construct(string $apiKey)
+    {
+        $this->httpClient = new HttpClient($apiKey);
+    }
 
     /*
     public function embeddings(): EmbeddingService
