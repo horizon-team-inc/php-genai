@@ -1,6 +1,6 @@
 <?php
 
-namespace HorizonLLC\PhpGenAI;
+namespace PhpGenAI;
 
 use HorizonLLC\PhpGenAI\Http\HttpClient;
 
